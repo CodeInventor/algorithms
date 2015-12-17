@@ -1,4 +1,10 @@
 <?php
+/**
+  * Searching maximum subarray inside given array
+  *
+  * @package maximum_subarray
+  * @author Andrey Babaev <rebellious.mind@outlook.com>
+  */
 
 require_once('../common/functions.php');
 
@@ -21,11 +27,12 @@ measure_exec_time_rand('maximum_subarray', 15000);
 
 
 /**
+ * Searching maximum subarray inside given array
  * 
- * 
- *
  * @param array $a Array for sorting
- * @return array $new_arr Sorting array
+ * @param integer $low left index, 0 by default
+ * @param inreger $high right index, count($a) by default
+ * @return array $new_arr left index, right index, maximal sum of element
  */
 function maximum_subarray(array $a, $low = 0, $high = NULL)
 {
@@ -73,6 +80,14 @@ function maximum_subarray(array $a, $low = 0, $high = NULL)
     }
 }
 
+/**
+ * Searching a maximum sum of center's elements
+ * 
+ * @param array $a Array for sorting
+ * @param integer $low left index, 0 by default
+ * @param inreger $high right index, count($a) by default
+ * @return array $new_arr left index, right index, maximal sum of element
+ */
 function max_crossing_subarray(array $a, $low, $mid, $high) {
     
     $left_sum = PHP_INT_MIN;

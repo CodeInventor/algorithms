@@ -1,4 +1,11 @@
 <?php
+/**
+  * Common function and classes
+  *
+  * @package  common\function
+  * @author Andrey Babaev <rebellious.mind@outlook.com>
+  */
+
 
 /**
  * Print array before something

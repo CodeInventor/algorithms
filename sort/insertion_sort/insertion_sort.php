@@ -1,5 +1,12 @@
 <?php
 
+/**
+  * Sorting array by insertion algorithm
+  *
+  * @package bubble_sort
+  * @author Andrey Babaev <rebellious.mind@outlook.com>
+  */
+
 require_once('../../common/functions.php');
 
 // Prepare test array
@@ -18,7 +25,7 @@ measure_exec_time('insertion_sort', 10000);
 measure_exec_time('insertion_sort', 20000);
 //measure_exec_time('insertion_sort', 30000);  // too long for wait
 
-/*
+/**
  * Array sorting function
  * Use insertion algorythm for sorting
  *

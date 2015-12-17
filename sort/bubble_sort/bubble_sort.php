@@ -1,5 +1,12 @@
 <?php
 
+/**
+  * Sorting array by bubble algorithm
+  *
+  * @package bubble_sort
+  * @author Andrey Babaev <rebellious.mind@outlook.com>
+  */
+
 require_once('../../common/functions.php');
 
 // Prepare test array
@@ -19,7 +26,7 @@ measure_exec_time('bubble_sort', 5000);
 measure_exec_time('bubble_sort', 10000);  
 
 
-/*
+/**
  * Array sorting function
  * Use bubble algorythm for sorting
  *

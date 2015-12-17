@@ -1,5 +1,12 @@
 <?php
 
+/**
+  * Sorting array by merge algorithm
+  *
+  * @package bubble_sort
+  * @author Andrey Babaev <rebellious.mind@outlook.com>
+  */
+
 require_once('../../common/functions.php');
 
 
@@ -20,7 +27,7 @@ measure_exec_time('merge_sort', 20000);
 measure_exec_time('merge_sort', 30000);
 
 
-/*
+/**
  * Array sorting function
  * Use merge algorythm for sorting
  *
