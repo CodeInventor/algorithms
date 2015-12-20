@@ -10,8 +10,6 @@ require_once('../common/functions.php');
 
 ini_set("memory_limit","512M");
 
-define('PHP_INT_MIN', ~PHP_INT_MAX);
-
 // Prepare test array
 $a = array(13, -3, -25, 20, -3, -16, -23, 0, 0, 0, 18, 20, -7, 12, -5, -22, 15, -4, 7);
 // Print array before sorting
