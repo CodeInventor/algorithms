@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"max_end"
+			],
+			[
+				"max",
+				"max_far"
+			],
+			[
 				"l",
 				"left_arr"
 			],
@@ -22,10 +30,6 @@
 			[
 				"rig",
 				"righ_arr"
-			],
-			[
-				"ma",
-				"max_right"
 			],
 			[
 				"s",
@@ -104,11 +108,22 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrey/tests/algos",
-		"/Users/andrey/tests/algos/sort/merge_sort"
+		"/Users/andrey/tests/algorithms",
+		"/Users/andrey/tests/algorithms/common",
+		"/Users/andrey/tests/algorithms/maximum_subarray",
+		"/Users/andrey/tests/algorithms/sort/bubble_sort",
+		"/Users/andrey/tests/algorithms/sort/insertion_sort",
+		"/Users/andrey/tests/algorithms/sort/merge_sort"
 	],
 	"file_history":
 	[
+		"/Users/andrey/tests/algorithms/maximum_subarray/maximum_subarray_linear.php",
+		"/Users/andrey/tests/algorithms/maximum_subarray/maximum_subarray.php",
+		"/Users/andrey/tests/algorithms/sort/insertion_sort/insertion_sort.php",
+		"/Users/andrey/tests/algorithms/maximum_subarray/maximum_subarray_recursive.php",
+		"/Users/andrey/tests/algorithms/sort/bubble_sort/bubble_sort.php",
+		"/Users/andrey/tests/algorithms/sort/merge_sort/merge_sort_my.php",
+		"/Users/andrey/tests/algorithms/common/functions.php",
 		"/Users/andrey/tests/algos/common/functions.php",
 		"/Users/andrey/tests/algos/sort/merge_sort/merge_sort_my.php",
 		"/Users/andrey/tests/algos/sort/insertion_sort/insertion_sort.php",
@@ -134,6 +149,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Searching maximum subarray inside given array by ",
+			"13",
+			"y",
 			"();\n"
 		],
 		"highlight": true,
@@ -234,7 +252,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
